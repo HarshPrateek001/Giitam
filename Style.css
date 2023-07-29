@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: azure;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+nav ul li {
+    padding: 0 12px;
+    align-items: center;
+}
+
+.brand img {
+    width: 65px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+    font-family: 'Montserrat';
+}
+
+.container {
+    min-height: 75vh;
+    background-color: rgba(127, 126, 57, 0.145);
+    color: rgb(72, 72, 72);
+    font-family: 'Dancing Script', cursive;
+    align-items: baseline;
+    display: flex;
+    width: 96%;
+    margin: 37px auto;
+    border-radius: 12px;
+    padding: 34px;
+    font-size: 34px;
+    background-image: url(cover/Cover.jpg);
+}
+
+.bottom {
+    position: sticky;
+    height: 135px;
+    background-color: black;
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    text-align: center;
+    color: aqua;
+    cursor: pointer;
+}
+
+.songitemcontainer {
+    margin-top: 60px;
+}
+
+.songitem {
+    height: 144px;
+    display: inline-grid;
+    background-color: rgba(180, 153, 90, 0.016)12;
+    cursor: pointer;
+    color: rgb(217, 206, 206);
+    margin: 12px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img {
+    width: 250px;
+    margin: 50px 55px 0;
+    border-radius: 34px;
+    box-shadow: aliceblue;
+
+}
+
+.timestamp {
+    margin: 0 23px;
+
+}
+
+.timestamp i {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
