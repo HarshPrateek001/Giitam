@@ -1,4 +1,4 @@
-/--HTML Codes Start from here--/
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -138,8 +138,3 @@
 </body>
 
 </html>
-/--HTML Codes ENDS from here--/
-
-/--CSS Codes Start from here--/
-
-This is a music software created by using HTML, CSS, Javascript.
